@@ -1,0 +1,1 @@
+"""Mini Arcade application package."""
