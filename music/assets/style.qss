@@ -1,0 +1,77 @@
+QMainWindow {
+    background: qlineargradient(x1:0, y1:0, x2:1, y2:1, stop:0 #0f172a, stop:1 #1e1b4b);
+    color: #e2e8f0;
+    font-family: "Segoe UI";
+}
+
+QLabel {
+    color: #e2e8f0;
+}
+
+QListWidget {
+    background: rgba(15, 23, 42, 0.55);
+    border-radius: 16px;
+    padding: 12px;
+    color: #e2e8f0;
+    border: 1px solid rgba(148, 163, 184, 0.2);
+}
+
+QListWidget::item {
+    border-radius: 12px;
+    padding: 10px;
+}
+
+QListWidget::item:selected {
+    background: rgba(59, 130, 246, 0.35);
+}
+
+QPushButton, QToolButton {
+    background-color: #2563eb;
+    border: none;
+    color: white;
+    padding: 10px 18px;
+    border-radius: 12px;
+    font-weight: 600;
+}
+
+QPushButton:hover, QToolButton:hover {
+    background-color: #3b82f6;
+}
+
+QPushButton#secondary, QToolButton#secondary {
+    background: rgba(148, 163, 184, 0.25);
+    color: #f8fafc;
+}
+
+QPushButton#secondary:hover, QToolButton#secondary:hover {
+    background: rgba(148, 163, 184, 0.4);
+}
+
+QSlider::groove:horizontal {
+    height: 6px;
+    background: rgba(148, 163, 184, 0.4);
+    border-radius: 3px;
+}
+
+QSlider::handle:horizontal {
+    width: 18px;
+    margin: -6px 0;
+    background: #38bdf8;
+    border-radius: 9px;
+}
+
+QSlider::sub-page:horizontal {
+    background: #38bdf8;
+    border-radius: 3px;
+}
+
+#metadataCard {
+    background: rgba(15, 23, 42, 0.75);
+    border-radius: 24px;
+    border: 1px solid rgba(148, 163, 184, 0.25);
+}
+
+QStatusBar {
+    background: transparent;
+    color: #cbd5f5;
+}
